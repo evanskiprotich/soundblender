@@ -958,12 +958,12 @@ header .right_side .uploadForm {
 header .right_side .uploadForm h1{
     color: #fff;
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 700;
     margin-bottom: 20px;
 }
 header .right_side label{
     color: #4c5262;
-    font-size: 18px;
+    font-size: 22px;
 }
 header .right_side .alert{
     padding-top: 100px;
