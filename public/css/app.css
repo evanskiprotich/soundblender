@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 *{
     padding: 0%;
     margin: 0%;
@@ -9,7 +9,11 @@ body{
     width: 100%;
     height: 100%;
     background-color: #03001C;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    color: #101010;
     display: flex; 
     justify-content: center;
     position: relative;
@@ -32,7 +36,20 @@ header .menu_side, .song_side {
     color: #fff;
 
 }
+.nav-brand{
+    
+  
+  color:#ffffff;
+  font-size:20px;
+  padding:8px 12px;
+  border-radius:3px;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+  text-decoration:none;
+  
+  display: block; /* Added */
 
+}
 .menu_side, .song_side {
     height: 100%;
     width: 78%;
@@ -46,7 +63,7 @@ header .menu_side, .song_side {
 header .menu_side h1{
     font-size: 1.25rem;
     margin: 15px 0 0 20px;
-    font-weight: 500;
+    text-decoration: none !important;
 }
 
 header .menu_side .playlist{
@@ -158,8 +175,6 @@ header .menu_side .menu_song li h5 .bi{
     font-size: 20px;
 }
 
-
-/* ================================Song side (Top part- menu)=================================*/
 header .song_side {
     z-index: 2;
 }
@@ -295,18 +310,18 @@ header .song_side .content .buttons button{
    width: 80px;
    height: 40px;
    font-size: 16px;
-   border: 2px solid #36e2ec;
+   border: 2px solid #FF4B2B;
    outline: none;
    border-radius: 20px;
    background: none;
-   color: #36e2ec;
+   color: #FF4B2B;
    cursor: pointer;
    transition: .3s linear;
    align-items: center;
 }
 header .song_side .content .buttons button:hover{
-   border: 2px solid #36e2ec;
-   background: #5adae0;
+   border: 2px solid #FF4B2B;
+   background: #FF4B2B;
    color: #fff;
 }
 header .song_side .coverArt{
@@ -968,8 +983,8 @@ header .right_side .alert a{
     font-weight: 200;
 }
 header .right_side .alert a:hover{
-    color: #36e2ec;
-    border: 1px solid #5adae0;
+    color: #FF4B2B;
+    border: 1px solid #FF4B2B;
 }
 header .right_side .uploadForm .selection{
     width: 100%;
@@ -1024,7 +1039,7 @@ header .right_side .uploadForm .submit{
     margin: 30px 0 30px 0;
 }
 header .right_side .uploadForm .submit .upload{
-    background: #36e2ec;
+    background: #FF4B2B;
     color: #090f1f;
     font-size:16px;
     border-radius: 5px;
@@ -1034,9 +1049,9 @@ header .right_side .uploadForm .submit .upload{
 }
 header .right_side .uploadForm .submit .upload:hover{
     background: none;
-    color: #36e2ec;
+    color: #FF4B2B;
     border-radius: 5px;
-    border: 1px solid #36e2ec; 
+    border: 1px solid #FF4B2B; 
 }
 header .right_side .uploadForm .submit .cancel{
     background:none;
@@ -1153,3 +1168,5 @@ height: -50px;
   text-align: center;
   bottom:0;
 }
+
+

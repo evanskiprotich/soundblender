@@ -106,15 +106,15 @@ a.login{
     color: #01e701;
 }
 a.signup{
-    border-color:#3bbcf8;
-    color:#3bbcf8;
+    border-color:#FF4B2B;
+    color:#FF4B2B;
 }
 a.login:hover{
     background-color:#01e701;
     color:#FFFFFF;
 }
 a.signup:hover{
-    background-color:#3bbcf8;
+    background-color:#FF4B2B;
     color:#FFFFFF;
 }
 @media all and (max-width:30em){
