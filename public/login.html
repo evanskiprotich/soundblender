@@ -15,7 +15,7 @@
         <div class="container-landing container-fluid">
              <!-- Nav Bar -->
              <nav class="navbar navbar-expand-lg">
-                 <a class="navbar-brand brand" href="">Sound Blender</a>
+                 <a class="navbar-brand brand" href="index.html">Sound Blender</a>
 
                  
 
@@ -23,14 +23,6 @@
                     <ul class="navbar-nav ml-auto">
                       <li class="nav-item">
                         <a class="nav-link" href="index.html">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#music-store">Music Store</a>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#about-us">About Us</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#contact-us">Contact Us</a>
                       </li>
                       <li class="nav-item nav-link">
                         <a href="login.html" class="button3 signup">Sign In</a>
@@ -40,39 +32,51 @@
             </div>
 
             
-<div class="content">
-
-    <div id="login-box">
-        <div class="left">
-          <h1>Log in</h1>
-          <form id="login">
-            <input type="text" name="email" placeholder="Email"/>
-            <input type="password" name="password" placeholder="Password"/>
-            <input type="submit" name="login_submit" value="LOG IN"/>
-          </form>
-          
-        </div>
-        
-        
-         
-        <div class="right">
-            <p class="loginwith">Log in with<br/>social network</p>
-            <div class="items">
-                <button class="social-signin facebook" id="fb">Log in with facebook</button>
-                <button class="social-signin twitter" id="twitter">Log in with Twitter</button>
-                <button class="social-signin google" id="google">Log in with Gmail</button>
-            </div> 
-        </div>
-        <div class="or">OR</div>       
-      </div>
-</div>
-
-
-<div class="sign_up">
-  <p> 
-    Don't have an account yet?  
-    <a href="signup.html" >Sign Up</a>
-   </p>
+<div class="container" id="container">
+	<div class="form-container sign-up-container">
+		<form action="#">
+			<h1>Create Account</h1>
+			<div class="social-container">
+				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+			<span>or use your email for registration</span>
+			<input type="text" placeholder="Name" />
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Password" />
+			<button>Sign Up</button>
+		</form>
+	</div>
+	<div class="form-container sign-in-container">
+		<form action="#">
+			<h1>Sign in</h1>
+			<div class="social-container">
+				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+			<span>or use your account</span>
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Password" />
+			<a href="#">Forgot your password?</a>
+			<button>Sign In</button>
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<h1>Welcome Back!</h1>
+				<p>To keep connected with us please login with your personal info</p>
+				<button class="ghost" id="signIn">Sign In</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+				<h1>Hello, Friend!</h1>
+				<p>Enter your personal details and start journey with us</p>
+				<button class="ghost" id="signUp">Sign Up</button>
+			</div>
+		</div>
+	</div>
 </div>
 
 
@@ -81,6 +85,6 @@
 </div>
 
 <script type="module" src="login.js"></script>
-
+<script src="app.js"></script>
 </body>
 </html>

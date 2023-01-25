@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/app.css">
+    <script type="module" src="bundle.js"></script>
+    <title>Sound blender</title>
+</head>
+<body>
+    <header> 
+
+
+<!--------------------------------------------menu section -------------------------------------------------------> 
+        <div class="right_side"> 
+            <nav>
+                <ul>
+                    <li class=""><a href="music.html"> Discover </a></li>
+                    <li id="my_music" class=""><a href="songs.html"> My Music </a></li>
+                    <li id="uploadLink" class="active"><a href=""> Upload Music </a></li> 
+                </ul>
+                <div class="search"> </div>
+
+                <div class="user">
+                    <img id="userDP"  class="hidden" src="images/ctaIMG.webp" alt="User" title="">
+                    <span id="userID" class=""></span>
+                </div>
+
+                <div class="auth">
+                    <ul>
+                        <li id="logout" class="hidden auth">
+                            Log Out
+                          </li>
+                          <li id="login" class="hidden auth">
+                            Log in
+                          </li>
+                    </ul> 
+                </div>
+            </nav> 
+<!--------------------------------------------form section -------------------------------------------------------> 
+
+<div class="uploadForm" id="display1">
+    <div class="hidd" id="display2">
+    
+        <h1>Upload Your Music</h1>
+
+         <p class="ps">
+                    Fields with * must be filled
+                </p> <br><br>
+
+                <label id="songUpload">Select a music file *</label><br>
+                <div class="selection">
+                <button id="selectSong" class=""> Select Song </button> 
+                <div class="label" id="divInput">
+                    <input type="text" id="namebox" class="" placeholder="Music Name ..." accept="audio/*">
+                </div>
+                <label id="extLabel" > </label>
+                <audio id="mySong" src=""></audio>
+                </div>  
+                
+                
+                <label id="imageUpload">Select a cover image</label>
+                <div class="selection">
+                <button id="selectImage" class=""> Select Image </button> 
+                <div class="label"><input type="text" id="imgNamebox" class="" placeholder="Image ..."></div>
+                <label id="imgLabel" > </label>
+                </div>
+                
+                
+                <label id="artistLabel">Enter artist name *</label><br>
+                <div class="selection">
+                <div class="label"><input type="text" id="artistTitle" class="" placeholder="Artist ..."><br><br></div>
+                </div>
+
+                
+                <label id="artistFtLabel">Enter featured artists </label><br>
+                <div class="selection">
+                <div class="label"><input type="text" id="ftArtists" class="" placeholder="Artist 1, Artist 2, ..."><br><br> </div>
+                </div>
+
+                <div class="options">
+                <label id="artistFtLabel">Select the Genre *</label><br>
+                <select name="genre" id="genre">
+                    <option value="">Select Genre</option>
+                    <option value="Afro-Beats">Afro-Beats</option>
+                    <option value="Afro-soul">Afro-Soul</option>
+                    <option value="Amapiano">Amapiano</option>
+                    <option value="Bongo">Bongo</option>
+                    <option value="Country">Country</option>
+                    <option value="Drill">Drill</option>
+                    <option value="Gengetone">Gengetone</option>
+                    <option value="Gospel">Gospel</option>
+                    <option value="Hip-Hop">Hip-Hop</option>
+                    <option value="House">House</option>
+                    <option value="Pop">Pop</option>
+                    <option value="Reggae">Reggae</option>
+                    <option value="RnB">RnB</option>
+                    <option value="Soft-Rock">Soul</option>
+                    <option value="Soul">Soft-Rock</option>
+                    <option value="Other">Other</option>
+                  </select>
+                </div>
+
+               
+                
+                <label id="progress" class="progress"> </label>
+                <progress id="uploadProgress" value="0" max="100" class="hidden"></progress>
+
+                <div class="submit">
+                <button id="upload" class="upload"> Upload </button>
+                <button id="cancelUpload" class="cancel"> Cancel </button>
+                </div>
+
+            </div>
+
+    </div>
+<div class="footer">
+  <p>© Copyright 2023 Soundblender</p>
+</div>
+    </header>
+    
+    <script type="module" src="logout.js"></script>
+    <script type="module" src="upload.js"></script>
+    
+
+</body>
+</html>

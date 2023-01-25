@@ -7,13 +7,13 @@ import { getAnalytics } from "firebase/analytics";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyAz9YFwh9EGL_rMBAQrY7ThLqy_a5i34AA",
-  authDomain: "soundblender-3e907.firebaseapp.com",
-  projectId: "soundblender-3e907",
-  storageBucket: "soundblender-3e907.appspot.com",
-  messagingSenderId: "378738085237",
-  appId: "1:378738085237:web:71afb7a0fb8d203449973c",
-  measurementId: "G-YH6RXBK5H5",
+  apiKey: "AIzaSyCRu_oA6v74Zi7N5FkRmNdrcjkpcE57laA",
+  authDomain: "soundcloud-3948e.firebaseapp.com",
+  projectId: "soundcloud-3948e",
+  storageBucket: "soundcloud-3948e.appspot.com",
+  messagingSenderId: "448495516251",
+  appId: "1:448495516251:web:21f037e817cb932d639d7e",
+  measurementId: "G-83430HWHQQ",
 };
 
 // Initialize Firebase
