@@ -7,7 +7,6 @@
 
 body{
     width: 100%;
-    height: 100%;
     background-color: #03001C;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5;
@@ -962,14 +961,14 @@ header .right_side .uploadForm h1{
     margin-bottom: 20px;
 }
 header .right_side label{
-    color: #4c5262;
+    /* color: #4c5262; */
     font-size: 22px;
 }
 header .right_side .alert{
     padding-top: 100px;
     padding-bottom: 70px;
     text-align: center;
-    color: #4c5262;
+    /* color: #4c5262; */
     font-size: 30px;
 }
 header .right_side .alert a{
@@ -1017,7 +1016,7 @@ header .right_side .uploadForm input{
     background: none;
     outline: none;
     border: none;
-    color: #a4a8b4;
+    /* color: #a4a8b4; */
     font-size: 15px;
     width: 300px; 
     margin-bottom: 15px;
@@ -1032,8 +1031,8 @@ header .right_side .uploadForm select{
 }
 header .right_side .uploadForm .progress, p{
     margin-top: 20px;
-    color: #4c5262;
-    font-size: 12px;
+    /* color: #4c5262; */
+    font-size: 16px;
 }
 header .right_side .uploadForm .submit{
     margin: 30px 0 30px 0;
