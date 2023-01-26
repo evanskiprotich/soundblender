@@ -66,7 +66,7 @@ signupForm.addEventListener('submit', (e)=>{
       updateProfile(auth.currentUser, {
         displayName: username
       }).then(() => {
-        window.location.href = "play.html"
+        window.location.href = "songs.html"
       })
     })
     .catch((error) => {
@@ -128,7 +128,7 @@ twitterLogin.addEventListener('click', (e)=>{
     // The signed-in user info.
     const user = result.user;
 
-    window.location.href = "play.html"
+    window.location.href = "songs.html"
     console.log('user logged in:' + user)
   })
   .catch((error) => {
@@ -161,7 +161,7 @@ googleLogin.addEventListener('click', (e)=>{
     const user = result.user;
     // ...
 
-    window.location.href = "play.html"
+    window.location.href = "songs.html"
     console.log('user logged in:' + user)
   })
   .catch((error) => {

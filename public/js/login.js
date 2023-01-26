@@ -43,7 +43,7 @@ loginForm.addEventListener("submit", (e) => {
     .then((credentials) => {
       console.log("user logged in:" + credentials.user);
 
-      window.location.href = "play.html";
+      window.location.href = "songs.html";
     })
     .catch((err) => {
       const errorCode = err.code;
@@ -74,7 +74,7 @@ twitterLogin.addEventListener('click', (e)=>{
     // The signed-in user info.
     const user = result.user;
 
-    window.location.href = "play.html"
+    window.location.href = "songs.html"
     console.log('user logged in:' + user)
   })
   .catch((error) => {
@@ -106,7 +106,7 @@ googleLogin.addEventListener('click', (e)=>{
     // The signed-in user info.
     const user = result.user;
 
-    window.location.href = "play.html"
+    window.location.href = "songs.html"
     console.log('user logged in:' + user)
   })
   .catch((error) => {
